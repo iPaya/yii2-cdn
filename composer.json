@@ -1,0 +1,37 @@
+{
+    "name": "ipaya/yii2-cdn",
+    "description": "The CDN extension for yii2.0",
+    "keywords": [
+        "yii2",
+        "cdn"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com",
+            "homepage": "http://blog.ipaya.cn/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "yiisoft/yii2": "*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-debug": "*"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "iPaya\\Yii2\\Cdn\\": "src"
+        }
+    }
+}
